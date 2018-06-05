@@ -18,7 +18,7 @@ int main()
         if(i%2) round[0][i] = p[i][i-1];
         else round[0][i] = p[i][i+1];
     }
-    //round 1
+    //round 1-round3
     int base = 2;
     for(int i = 1;i<4;i++,base*=2)
     {
